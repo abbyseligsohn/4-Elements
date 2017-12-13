@@ -4,6 +4,7 @@
 @import '_mixins.scss';
 
 // Your CSS/SCSS below this line
+
 body {
   font-family: $body, $body-fb;
 }
@@ -17,4 +18,9 @@ img {
 }
 
 h1 {font-size: 128px;
+}
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
 }
